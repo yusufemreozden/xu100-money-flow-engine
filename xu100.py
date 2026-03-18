@@ -38,8 +38,10 @@ CHART_DAYS = 20
 REG_PERIOD = 89  
 DOWNLOAD_PERIOD = "7mo" 
 OYAK_URL = "https://www.oyakyatirim.com.tr/piyasa-verileri/XU100"
-OUTPUT_DIR = "/Users/yusufemreozden/Desktop/"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+OUTPUT_DIR = os.path.join(BASE_DIR, "output")
 OUTPUT_FILE = os.path.join(OUTPUT_DIR, "bist100_para_akisi_final.xlsx")
+os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 SHEET_MAIN = "BIST 100 Piyasa Analizi"
 SHEET_TOP = "Skor Bazlı Öncü Hisseler"
