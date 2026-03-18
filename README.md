@@ -66,3 +66,8 @@ This creates a relative measure of capital strength across stocks and sectors.
 
 ```bash
 pip install pandas numpy yfinance matplotlib openpyxl
+
+## Usage
+
+Run the script from terminal:
+`python xu100.py`
