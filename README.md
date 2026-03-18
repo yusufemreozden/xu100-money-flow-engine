@@ -56,4 +56,4 @@ This creates a relative strength measure of capital movement.
 ## Usage
 
 ```bash
-python your_script_name.py
+python xu100.py
